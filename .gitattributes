@@ -1,2 +1,18 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# --- Unreal Engine Blueprint project language setup ---
+*.uasset linguist-language=Unreal-Blueprints
+*.umap linguist-language=Unreal-Blueprints
+*.uproject linguist-language=Unreal-Blueprints
+*.uplugin linguist-language=Unreal-Blueprints
+*.ini linguist-language=Unreal-Blueprints
+
+# Ignore asset/binary files from stats
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.wav linguist-vendored
+*.mp3 linguist-vendored
+*.exe linguist-vendored
+*.dll linguist-vendored
+*.sav linguist-vendored
