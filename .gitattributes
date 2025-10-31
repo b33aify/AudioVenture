@@ -1,18 +1,27 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# --- Unreal Engine Blueprint project language setup ---
+# --- Unreal Engine Blueprint Project Setup ---
+
+# Force GitHub Linguist to recognize Unreal project as "Unreal-Blueprints"
 *.uasset linguist-language=Unreal-Blueprints
 *.umap linguist-language=Unreal-Blueprints
 *.uproject linguist-language=Unreal-Blueprints
 *.uplugin linguist-language=Unreal-Blueprints
 *.ini linguist-language=Unreal-Blueprints
 
-# Ignore asset/binary files from stats
+# Ignore binary and asset files from language statistics
 *.png linguist-vendored
 *.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.bmp linguist-vendored
+*.tga linguist-vendored
 *.wav linguist-vendored
 *.mp3 linguist-vendored
+*.ogg linguist-vendored
 *.exe linguist-vendored
 *.dll linguist-vendored
 *.sav linguist-vendored
+*.mp4 linguist-vendored
+*.avi linguist-vendored
+*.mov linguist-vendored
