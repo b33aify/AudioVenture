@@ -1,3 +1,6 @@
+![Unreal Engine](https://img.shields.io/badge/Built%20with-Unreal%20Engine%205-blue?logo=unrealengine)
+![Blueprints](https://img.shields.io/badge/Scripting-Blueprints-lightblue)
+
 # 🎶 AudioVenture
 
 **AudioVenture** is a rhythm-based 3D game built in **Unreal Engine 5**, where players collect **musical notes** in a vibrant disco-inspired environment to create their own song.  
